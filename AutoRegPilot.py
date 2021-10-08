@@ -169,7 +169,7 @@ class Loess_Regression():
     def R2_Score(Signal, time, RegLen=30):
         """
         This function gives float output of R Square score from data.
-        CALL: Loess_Regression.R2_Score(Data1,Data2)
+        CALL: Loess_Regression.R2_Score(Data1,Data2,Regression_Window_for_per_estimation)
         
         """
         Y_pred = Loess_Regression.Reg_Line(Signal, time, RegLen)
@@ -180,7 +180,7 @@ class Loess_Regression():
     def MSE(Signal, time, RegLen=30):
         """
         This function gives float output of Mean Square Error from data.
-        CALL: Loess_Regression.MSE(Data1,Data2,degree)
+        CALL: Loess_Regression.MSE(Data1,Data2,Regression_Window_for_per_estimation)
         
         """
         Y_pred = Loess_Regression.Reg_Line(Signal, time, RegLen)
