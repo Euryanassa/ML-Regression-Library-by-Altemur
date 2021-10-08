@@ -159,7 +159,7 @@ class Loess_Regression():
     def Reg_Line(Signal,time,RegLen=30):
         """
         This function creates Loess Regression line between two dimensional data within given window.
-        CALL: PLoess_Regression.Reg_Line(Data1,Data2,Regression_Window_for_per_estimation)
+        CALL: Loess_Regression.Reg_Line(Data1,Data2,Regression_Window_for_per_estimation)
         Use matplotlib.pyplot.plot() function recommended for observation.
         
         """
@@ -180,7 +180,7 @@ class Loess_Regression():
     def MSE(Signal, time, RegLen=30):
         """
         This function gives float output of Mean Square Error from data.
-        CALL: Polynomial_Regression.MSE(Data1,Data2,degree)
+        CALL: Loess_Regression.MSE(Data1,Data2,degree)
         
         """
         Y_pred = Loess_Regression.Reg_Line(Signal, time, RegLen)
