@@ -44,7 +44,7 @@ Loess Regression Commands:
 Regression Library by Altemur
 
 References
-[1] Gareth, J. Witten, D. Hastie, T. Tibshirani, R. (2013). An Introduction to Statistical Learning with Applications in R. New York: Springer
-[2] Alpaydın, E. (2014). Introduction to machine learning. 3rd ed. Cambridge, Massachusetts: The MIT Press.
-[3] Starmer, J. (2017). StatQuest: Fitting a curve to data, aka lowess, aka loess, YouTube.
-[3] João Paulo Figueira (2019) - LOESS, Smoothing Data Using Local Regression, https://towardsdatascience.com/loess-373d43b03564.
+	[1] Gareth, J. Witten, D. Hastie, T. Tibshirani, R. (2013). An Introduction to Statistical Learning with Applications in R. New York: Springer
+	[2] Alpaydın, E. (2014). Introduction to machine learning. 3rd ed. Cambridge, Massachusetts: The MIT Press.
+	[3] Starmer, J. (2017). StatQuest: Fitting a curve to data, aka lowess, aka loess, YouTube.
+	[3] João Paulo Figueira (2019) - LOESS, Smoothing Data Using Local Regression, https://towardsdatascience.com/loess-373d43b03564.
